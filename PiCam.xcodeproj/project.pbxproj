@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		8BB8A9642D5B703000BCAFFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BB8A9452D5B702D00BCAFFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BB8A94C2D5B702D00BCAFFA;
+			remoteInfo = PiCam;
+		};
+		8BB8A96E2D5B703000BCAFFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BB8A9452D5B702D00BCAFFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BB8A94C2D5B702D00BCAFFA;
+			remoteInfo = PiCam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8BB8A94D2D5B702D00BCAFFA /* PiCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BB8A9632D5B703000BCAFFA /* PiCamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiCamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BB8A96D2D5B703000BCAFFA /* PiCamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiCamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8BB8A9752D5B703000BCAFFA /* Exceptions for "PiCam" folder in "PiCam" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 8BB8A94C2D5B702D00BCAFFA /* PiCam */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8BB8A94F2D5B702D00BCAFFA /* PiCam */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8BB8A9752D5B703000BCAFFA /* Exceptions for "PiCam" folder in "PiCam" target */,
+			);
+			path = PiCam;
+			sourceTree = "<group>";
+		};
+		8BB8A9662D5B703000BCAFFA /* PiCamTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PiCamTests;
+			sourceTree = "<group>";
+		};
+		8BB8A9702D5B703000BCAFFA /* PiCamUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PiCamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BB8A94A2D5B702D00BCAFFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB8A9602D5B703000BCAFFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB8A96A2D5B703000BCAFFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BB8A9442D5B702D00BCAFFA = {
+			isa = PBXGroup;
+			children = (
+				8BB8A94F2D5B702D00BCAFFA /* PiCam */,
+				8BB8A9662D5B703000BCAFFA /* PiCamTests */,
+				8BB8A9702D5B703000BCAFFA /* PiCamUITests */,
+				8BB8A94E2D5B702D00BCAFFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BB8A94E2D5B702D00BCAFFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BB8A94D2D5B702D00BCAFFA /* PiCam.app */,
+				8BB8A9632D5B703000BCAFFA /* PiCamTests.xctest */,
+				8BB8A96D2D5B703000BCAFFA /* PiCamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BB8A94C2D5B702D00BCAFFA /* PiCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BB8A9762D5B703000BCAFFA /* Build configuration list for PBXNativeTarget "PiCam" */;
+			buildPhases = (
+				8BB8A9492D5B702D00BCAFFA /* Sources */,
+				8BB8A94A2D5B702D00BCAFFA /* Frameworks */,
+				8BB8A94B2D5B702D00BCAFFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8BB8A94F2D5B702D00BCAFFA /* PiCam */,
+			);
+			name = PiCam;
+			packageProductDependencies = (
+			);
+			productName = PiCam;
+			productReference = 8BB8A94D2D5B702D00BCAFFA /* PiCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BB8A9622D5B703000BCAFFA /* PiCamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BB8A97B2D5B703000BCAFFA /* Build configuration list for PBXNativeTarget "PiCamTests" */;
+			buildPhases = (
+				8BB8A95F2D5B703000BCAFFA /* Sources */,
+				8BB8A9602D5B703000BCAFFA /* Frameworks */,
+				8BB8A9612D5B703000BCAFFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BB8A9652D5B703000BCAFFA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8BB8A9662D5B703000BCAFFA /* PiCamTests */,
+			);
+			name = PiCamTests;
+			packageProductDependencies = (
+			);
+			productName = PiCamTests;
+			productReference = 8BB8A9632D5B703000BCAFFA /* PiCamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8BB8A96C2D5B703000BCAFFA /* PiCamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BB8A97E2D5B703000BCAFFA /* Build configuration list for PBXNativeTarget "PiCamUITests" */;
+			buildPhases = (
+				8BB8A9692D5B703000BCAFFA /* Sources */,
+				8BB8A96A2D5B703000BCAFFA /* Frameworks */,
+				8BB8A96B2D5B703000BCAFFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BB8A96F2D5B703000BCAFFA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8BB8A9702D5B703000BCAFFA /* PiCamUITests */,
+			);
+			name = PiCamUITests;
+			packageProductDependencies = (
+			);
+			productName = PiCamUITests;
+			productReference = 8BB8A96D2D5B703000BCAFFA /* PiCamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BB8A9452D5B702D00BCAFFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					8BB8A94C2D5B702D00BCAFFA = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					8BB8A9622D5B703000BCAFFA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 8BB8A94C2D5B702D00BCAFFA;
+					};
+					8BB8A96C2D5B703000BCAFFA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 8BB8A94C2D5B702D00BCAFFA;
+					};
+				};
+			};
+			buildConfigurationList = 8BB8A9482D5B702D00BCAFFA /* Build configuration list for PBXProject "PiCam" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BB8A9442D5B702D00BCAFFA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8BB8A94E2D5B702D00BCAFFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BB8A94C2D5B702D00BCAFFA /* PiCam */,
+				8BB8A9622D5B703000BCAFFA /* PiCamTests */,
+				8BB8A96C2D5B703000BCAFFA /* PiCamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BB8A94B2D5B702D00BCAFFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB8A9612D5B703000BCAFFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB8A96B2D5B703000BCAFFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BB8A9492D5B702D00BCAFFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB8A95F2D5B703000BCAFFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB8A9692D5B703000BCAFFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BB8A9652D5B703000BCAFFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BB8A94C2D5B702D00BCAFFA /* PiCam */;
+			targetProxy = 8BB8A9642D5B703000BCAFFA /* PBXContainerItemProxy */;
+		};
+		8BB8A96F2D5B703000BCAFFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BB8A94C2D5B702D00BCAFFA /* PiCam */;
+			targetProxy = 8BB8A96E2D5B703000BCAFFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8BB8A9772D5B703000BCAFFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Q35G3SWN6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PiCam/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.milescomedia.PiCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BB8A9782D5B703000BCAFFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Q35G3SWN6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PiCam/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.milescomedia.PiCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8BB8A9792D5B703000BCAFFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8BB8A97A2D5B703000BCAFFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BB8A97C2D5B703000BCAFFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Q35G3SWN6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.milescomedia.PiCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiCam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PiCam";
+			};
+			name = Debug;
+		};
+		8BB8A97D2D5B703000BCAFFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Q35G3SWN6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.milescomedia.PiCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiCam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PiCam";
+			};
+			name = Release;
+		};
+		8BB8A97F2D5B703000BCAFFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Q35G3SWN6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.milescomedia.PiCamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PiCam;
+			};
+			name = Debug;
+		};
+		8BB8A9802D5B703000BCAFFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Q35G3SWN6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.milescomedia.PiCamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PiCam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BB8A9482D5B702D00BCAFFA /* Build configuration list for PBXProject "PiCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BB8A9792D5B703000BCAFFA /* Debug */,
+				8BB8A97A2D5B703000BCAFFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BB8A9762D5B703000BCAFFA /* Build configuration list for PBXNativeTarget "PiCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BB8A9772D5B703000BCAFFA /* Debug */,
+				8BB8A9782D5B703000BCAFFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BB8A97B2D5B703000BCAFFA /* Build configuration list for PBXNativeTarget "PiCamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BB8A97C2D5B703000BCAFFA /* Debug */,
+				8BB8A97D2D5B703000BCAFFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BB8A97E2D5B703000BCAFFA /* Build configuration list for PBXNativeTarget "PiCamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BB8A97F2D5B703000BCAFFA /* Debug */,
+				8BB8A9802D5B703000BCAFFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BB8A9452D5B702D00BCAFFA /* Project object */;
+}
