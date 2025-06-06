@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1009632910927-c81eqi950p9v80oem8r7tvhghc63orl1.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1009632910927-c81eqi950p9v80oem8r7tvhghc63orl1</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDEuKg_VNtY727B4rYTZ4sVyAtPT2wIlKQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1009632910927</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.milescomedia.PiCam</string>
+	<key>PROJECT_ID</key>
+	<string>picamconnect</string>
+	<key>STORAGE_BUCKET</key>
+	<string>picamconnect.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1009632910927:ios:5feac0a61b0918b3b2943a</string>
+</dict>
+</plist>

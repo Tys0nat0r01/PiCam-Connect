@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>top-level-items</key>
+	<array>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>PiCam/DeviceViewController.swift</string>
+					</dict>
+				</dict>
+				<key>type</key>
+				<string>DVTDocumentLocation</string>
+			</dict>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>PiCam/DeviceViewController.swift</string>
+					</dict>
+				</dict>
+				<key>type</key>
+				<string>DVTDocumentLocation</string>
+			</dict>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>16</string>
+					<key>StartingColumnNumber</key>
+					<string>0</string>
+					<key>StartingLineNumber</key>
+					<string>15</string>
+					<key>Timestamp</key>
+					<string>766105256.129516</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>PiCam/SettingsTableViewController.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>    @IBAction func vehiclesInfoTapped(_ sender:  UIButton) {
+</string>
+				<key>leading</key>
+				<string>        showSignOutAlert( )
+    }
+</string>
+				<key>trailing</key>
+				<string>        let alert = MidAlertView(
+            type: .alert,
+            title: "Feature Not Available Yet",
+</string>
+			</dict>
+			<key>title</key>
+			<string>Needs Attention</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>347</string>
+					<key>StartingColumnNumber</key>
+					<string>0</string>
+					<key>StartingLineNumber</key>
+					<string>346</string>
+					<key>Timestamp</key>
+					<string>766755987.689261</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>PiCam/PiCamSetupViewController.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>is-complete</key>
+			<true/>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>                DispatchQueue.main.asyncAfter(deadline: .now() + 7) { [weak self] in
+</string>
+				<key>leading</key>
+				<string>                    alert.show(in: self!.view!, duration: 2)
+                }
+</string>
+				<key>trailing</key>
+				<string>                    self!.processDeviceDocument(document, forUser: currentUser)
+                    print("Device document proccessing")
+                }
+</string>
+			</dict>
+			<key>title</key>
+			<string>Possibly fixed</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>15</string>
+					<key>StartingColumnNumber</key>
+					<string>0</string>
+					<key>StartingLineNumber</key>
+					<string>14</string>
+					<key>Timestamp</key>
+					<string>766142373.2606961</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>PiCam/HotspotManager.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>        NEHotspotConfigurationManager.shared.apply(configuration) { error in
+</string>
+				<key>leading</key>
+				<string>        configuration.joinOnce = false // Set to true if you want to join the network once
+        
+</string>
+				<key>trailing</key>
+				<string>            if let error = error {
+                print("Connection error: \(error)")
+                print( "PiCam Connect requires Network Extension entitlement. If you see this error, please contact support, or add an Issue to our GitHub repository. ER: CL-928")
+</string>
+			</dict>
+			<key>title</key>
+			<string>NEEDS IMEDIATE ATTENTION</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>67</string>
+					<key>StartingColumnNumber</key>
+					<string>0</string>
+					<key>StartingLineNumber</key>
+					<string>66</string>
+					<key>Timestamp</key>
+					<string>767317469.219869</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>PiCam/PiCamSetupHotspot.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>    }
+</string>
+				<key>leading</key>
+				<string>            }
+        }
+</string>
+				<key>trailing</key>
+				<string>    
+    @IBAction func cancelButtonTapped(_ sender: UIBarButtonItem) {
+        cancelSetup()
+</string>
+			</dict>
+			<key>title</key>
+			<string>Remove at FINAL WHEN GRANTEDX ENTITLEMENT</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>291</string>
+					<key>StartingColumnNumber</key>
+					<string>0</string>
+					<key>StartingLineNumber</key>
+					<string>290</string>
+					<key>Timestamp</key>
+					<string>766755987.689289</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>PiCam/PiCamSetupViewController.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>                title: "Invalid QR Code",
+</string>
+				<key>leading</key>
+				<string>            let alert = MidAlertView(
+                type: .alert,
+</string>
+				<key>trailing</key>
+				<string>                message: "It looks like you are trying to scan an invalid QR code. Make sure the QR code you are scanning says 'Scan during Setup' or 'Serial Number' below or beside it.",
+                symbol: UIImage(systemName: "viewfinder.trianglebadge.exclamationmark"),
+                primaryAction: {
+</string>
+			</dict>
+			<key>title</key>
+			<string>Needs attention</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>Timestamp</key>
+					<string>766291184.346712</string>
+					<key>XcodeLocation</key>
+					<string>{"MemberID":"QTK-vG-OZn"}</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>PiCam/Base.lproj/Main.storyboard</string>
+					</dict>
+				</dict>
+				<key>type</key>
+				<string>IBDocumentMemberLocation</string>
+			</dict>
+			<key>title</key>
+			<string>Needs Attention</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>69</string>
+					<key>StartingColumnNumber</key>
+					<string>0</string>
+					<key>StartingLineNumber</key>
+					<string>68</string>
+					<key>Timestamp</key>
+					<string>767270660.590384</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>PiCam/PiCamSetupPairing.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>    }
+</string>
+				<key>leading</key>
+				<string>                }
+            }
+</string>
+				<key>trailing</key>
+				<string>    func getDocumentFromDocID(documentID: String, completion: @escaping (Error?) -&gt; Void) {
+        let db = Firestore.firestore()
+        guard let currentUser = Auth.auth().currentUser else {
+</string>
+			</dict>
+			<key>title</key>
+			<string>REMOVE AT FINAL</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>69</string>
+					<key>StartingColumnNumber</key>
+					<string>0</string>
+					<key>StartingLineNumber</key>
+					<string>68</string>
+					<key>Timestamp</key>
+					<string>767270660.590418</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>PiCam/PiCamSetupPairing.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>    }
+</string>
+				<key>leading</key>
+				<string>                }
+            }
+</string>
+				<key>trailing</key>
+				<string>    func getDocumentFromDocID(documentID: String, completion: @escaping (Error?) -&gt; Void) {
+        let db = Firestore.firestore()
+        guard let currentUser = Auth.auth().currentUser else {
+</string>
+			</dict>
+			<key>title</key>
+			<string>ADD BACK AT FINAL</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>Timestamp</key>
+					<string>766585316.921736</string>
+					<key>XcodeLocation</key>
+					<string>{"MemberID":"1rc-hF-ogY"}</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>PiCam/Base.lproj/Main.storyboard</string>
+					</dict>
+				</dict>
+				<key>type</key>
+				<string>IBDocumentMemberLocation</string>
+			</dict>
+			<key>title</key>
+			<string>FINISH FOR PRODUCTION</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>Timestamp</key>
+					<string>766587292.040396</string>
+					<key>XcodeLocation</key>
+					<string>{"MemberID":"zHs-dc-RIe"}</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>PiCam/Base.lproj/Main.storyboard</string>
+					</dict>
+				</dict>
+				<key>type</key>
+				<string>IBDocumentMemberLocation</string>
+			</dict>
+			<key>title</key>
+			<string>Needs Implementation</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>PiCam/NotBeingUsed.swift</string>
+					</dict>
+				</dict>
+				<key>type</key>
+				<string>DVTDocumentLocation</string>
+			</dict>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>PiCam/NOT IN USE.swift</string>
+					</dict>
+				</dict>
+				<key>type</key>
+				<string>DVTDocumentLocation</string>
+			</dict>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>349</string>
+					<key>StartingColumnNumber</key>
+					<string>0</string>
+					<key>StartingLineNumber</key>
+					<string>348</string>
+					<key>Timestamp</key>
+					<string>767440161.039595</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>PiCam/PiCamSetupPairing.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>            if let error = error {
+</string>
+				<key>leading</key>
+				<string>        let message = "performHealthCheck"
+        piConnection?.send(content: message.data(using: .utf8), completion: .contentProcessed { error in
+</string>
+				<key>trailing</key>
+				<string>                print("Health check send error: \(error)")
+                let alert = MidAlertView(
+                    type: .alert,
+</string>
+			</dict>
+			<key>title</key>
+			<string>Add Actions</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>305</string>
+					<key>StartingColumnNumber</key>
+					<string>0</string>
+					<key>StartingLineNumber</key>
+					<string>304</string>
+					<key>Timestamp</key>
+					<string>767440161.039609</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>PiCam/PiCamSetupPairing.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>                    message: "The serial number received from your PiCam during setup does not match the one that you have entered. If you believe this is a mistake, please contact support.",
+</string>
+				<key>leading</key>
+				<string>                    type: .alert,
+                    title: "A Verification Error Occurred",
+</string>
+				<key>trailing</key>
+				<string>                    symbol: UIImage(systemName: "exclamationmark.circle.fill"),
+                    primaryAction: { print("insert action") },
+                    secondaryActionName: "Learn More",
+</string>
+			</dict>
+			<key>title</key>
+			<string>Add action</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>39</string>
+					<key>StartingColumnNumber</key>
+					<string>4</string>
+					<key>StartingLineNumber</key>
+					<string>29</string>
+					<key>Timestamp</key>
+					<string>766230472.659881</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>PiCam/PiCamSetupEnableHTSPT.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>@IBAction func playSoundTapped(_ sender: UIButton) {
+        let alert = MidAlertView(
+            type: .loadingcustom,
+            title: nil,  // Ignored
+            message: "",  // Ignored
+            symbol: UIImage(named: "loadingspinner")
+        )
+        alert.show(in: view, duration: 0)
+            playSound(named: "notification_bell")
+        }
+</string>
+				<key>leading</key>
+				<string>        cancelSetup()
+    }
+    </string>
+				<key>trailing</key>
+				<string>
+    private func playSound(named filename: String) {
+        guard let url = Bundle.main.url(
+</string>
+			</dict>
+			<key>title</key>
+			<string>COMPLETE</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>67</string>
+					<key>StartingColumnNumber</key>
+					<string>0</string>
+					<key>StartingLineNumber</key>
+					<string>66</string>
+					<key>Timestamp</key>
+					<string>767317469.219879</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>PiCam/PiCamSetupHotspot.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>    }
+</string>
+				<key>leading</key>
+				<string>            }
+        }
+</string>
+				<key>trailing</key>
+				<string>    
+    @IBAction func cancelButtonTapped(_ sender: UIBarButtonItem) {
+        cancelSetup()
+</string>
+			</dict>
+			<key>title</key>
+			<string>REMOVE FOR TEST</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>Timestamp</key>
+					<string>769946778.494629</string>
+					<key>XcodeLocation</key>
+					<string>{"MemberID":"Cha-4D-m1C"}</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>PiCam/Base.lproj/Main.storyboard</string>
+					</dict>
+				</dict>
+				<key>type</key>
+				<string>IBDocumentMemberLocation</string>
+			</dict>
+			<key>title</key>
+			<string>ADD IMAGES | Header</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>8</string>
+					<key>EndingLineNumber</key>
+					<string>39</string>
+					<key>StartingColumnNumber</key>
+					<string>8</string>
+					<key>StartingLineNumber</key>
+					<string>39</string>
+					<key>Timestamp</key>
+					<string>770024674.626955</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>PiCam/Setup/PiCamSetupHotspotManual.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string></string>
+				<key>leading</key>
+				<string>        )
+        alert.show(in: view, duration: 2)
+        </string>
+				<key>trailing</key>
+				<string>
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) { [weak self] in
+            guard let deviceName = self!.deviceName else {
+</string>
+			</dict>
+			<key>title</key>
+			<string>Add Action</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>Docs/Product/Base.lproj/Acknowledgements.rtf</string>
+					</dict>
+				</dict>
+				<key>type</key>
+				<string>DVTDocumentLocation</string>
+			</dict>
+			<key>title</key>
+			<string>NEEDS COMPLETION AND FINALISATION</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>PiCam/Base.lproj/Main.storyboard</string>
+					</dict>
+				</dict>
+				<key>type</key>
+				<string>DVTDocumentLocation</string>
+			</dict>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>62</string>
+					<key>EndingLineNumber</key>
+					<string>51</string>
+					<key>StartingColumnNumber</key>
+					<string>20</string>
+					<key>StartingLineNumber</key>
+					<string>51</string>
+					<key>Timestamp</key>
+					<string>770942364.751875</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>PiCam/Setup/PiCamSetupHotspotManual.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>primaryAction: { print("insert action") },</string>
+				<key>leading</key>
+				<string>                    message: "An error occured while connecting to your PiCam, please try again or view our docs for more info by pressing 'Help' below.",
+                    symbol: UIImage(systemName: "wifi.exclamationmark.circle.fill"),
+                    </string>
+				<key>trailing</key>
+				<string>
+                    secondaryActionName: "Help",
+                    primaryActionName: "OK",
+</string>
+			</dict>
+			<key>title</key>
+			<string>add Action</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>63</string>
+					<key>EndingLineNumber</key>
+					<string>56</string>
+					<key>StartingColumnNumber</key>
+					<string>18</string>
+					<key>StartingLineNumber</key>
+					<string>56</string>
+					<key>Timestamp</key>
+					<string>770942374.9655401</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>PiCam/Setup/PiCamSetupHotspotManual.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>  secondaryAction: { print("insert action")},</string>
+				<key>leading</key>
+				<string>                    primaryActionColor: .systemBlue,
+                    secondaryActionColor: .systemGray,
+                  </string>
+				<key>trailing</key>
+				<string>
+                )
+                
+</string>
+			</dict>
+			<key>title</key>
+			<string>Add Action</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+	</array>
+</dict>
+</plist>

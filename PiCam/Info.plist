@@ -2,6 +2,41 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.milescomedia.PiCam</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.1009632910927-c81eqi950p9v80oem8r7tvhghc63orl1</string>
+				<string>com.milescomedia.PiCam</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.milescomedia.PiCam://auth/github</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.milescomedia.PiCam://auth/github</string>
+			</array>
+		</dict>
+	</array>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>googlechromes</string>
+		<string>firefox</string>
+	</array>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_http._tcp</string>
+	</array>
+	<key>NSUserNotificationsUsageDescription</key>
+	<string>PiCam Connect uses notifications to alert you of important information emitted my your PiCam.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -11,6 +46,8 @@
 			<key>UIWindowSceneSessionRoleApplication</key>
 			<array>
 				<dict>
+					<key>UISceneClassName</key>
+					<string></string>
 					<key>UISceneConfigurationName</key>
 					<string>Default Configuration</string>
 					<key>UISceneDelegateClassName</key>
@@ -21,5 +58,7 @@
 			</array>
 		</dict>
 	</dict>
+	<key>UIBackgroundModes</key>
+	<array/>
 </dict>
 </plist>
